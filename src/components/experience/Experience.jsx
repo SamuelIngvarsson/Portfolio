@@ -2,6 +2,6 @@ import React from "react";
 import "./experience.css";
 
 function Experience() {
-  return <>Experience</>;
+  return <div>Experience</div>;
 }
 export default Experience;
