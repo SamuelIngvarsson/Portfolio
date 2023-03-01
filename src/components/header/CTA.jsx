@@ -9,7 +9,7 @@ function CTA() {
         Download CV
       </a>
       <a href={Letter} download className="btn">
-        Download Reference
+        Download Reference from previous work
       </a>
       <a href="#contact" className="btn btn-primary">
         Let's talk
