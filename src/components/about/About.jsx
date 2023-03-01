@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import Me from "../../assets/0E3E2BE4-CAB1-4678-8BDA-3A92060C0A4C_1_105_c.jpeg";
 import PersonalLetter from "../../assets/Personligt brev - Samuel Ingvarsson.pdf";
+import { Link } from "react-router-dom";
 function About() {
   return (
     <section id="about">
@@ -25,9 +26,9 @@ function About() {
             cooperation with other people.
           </p>
           <div className="about__links">
-            <a href="/contact" className="btn btn-primary">
+            <Link to="/contact" className="btn btn-primary">
               Let's talk
-            </a>
+            </Link>
             <a href={PersonalLetter} download className="btn">
               Download Personal letter
             </a>

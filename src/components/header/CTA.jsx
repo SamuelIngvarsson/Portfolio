@@ -1,6 +1,7 @@
 import React from "react";
 import CV from "../../assets/CV-Samuel-Ingvarsson.pdf";
 import Letter from "../../assets/Rekommendationsbrev.pdf";
+import { Link } from "react-router-dom";
 
 function CTA() {
   return (
@@ -11,9 +12,9 @@ function CTA() {
       <a href={Letter} download className="btn">
         Download Reference from previous work
       </a>
-      <a href="/contact" className="btn btn-primary">
+      <Link to="/contact" className="btn btn-primary">
         Let's talk
-      </a>
+      </Link>
     </div>
   );
 }
