@@ -11,7 +11,7 @@ function CTA() {
       <a href={Letter} download className="btn">
         Download Reference from previous work
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <a href="/contact" className="btn btn-primary">
         Let's talk
       </a>
     </div>

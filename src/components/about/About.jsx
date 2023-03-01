@@ -25,7 +25,7 @@ function About() {
             cooperation with other people.
           </p>
           <div className="about__links">
-            <a href="#contact" className="btn btn-primary">
+            <a href="/contact" className="btn btn-primary">
               Let's talk
             </a>
             <a href={PersonalLetter} download className="btn">
