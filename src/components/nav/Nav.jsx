@@ -6,48 +6,58 @@ import { BiBook } from "react-icons/bi";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { BsFillBagFill } from "react-icons/bs";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a
-        href="#"
+      <NavLink
+        to="/"
+        exact
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
         <AiOutlineHome />
-      </a>
+      </NavLink>
 
-      <a
-        href="#about"
+      <NavLink
+        to="/about"
+        exact
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
+      </NavLink>
+
+      <NavLink
+        to="/experience"
+        exact
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBook />
-      </a>
-      <a
-        href="#portfolio"
+      </NavLink>
+
+      <NavLink
+        to="/portfolio"
+        exact
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <BsFillBagFill />
-      </a>
-      <a
-        href="#contact"
+      </NavLink>
+
+      <NavLink
+        to="/contact"
+        exact
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
         <BiMessageSquareDetail />
-      </a>
+      </NavLink>
     </nav>
   );
 }
+
 export default Nav;

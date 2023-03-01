@@ -16,7 +16,7 @@ function Portfolio() {
           </div>
           <h3>Whack a Mole</h3>
           <a
-            href="https://github.com"
+            href="https://github.com/SamuelIngvarsson/WhackAMole"
             className="btn"
             target="_blank"
             rel="noreferrer"
@@ -30,7 +30,7 @@ function Portfolio() {
           </div>
           <h3>MineSweeper </h3>
           <a
-            href="https://github.com"
+            href="https://github.com/SamuelIngvarsson/Minesweeper"
             className="btn"
             target="_blank"
             rel="noreferrer"
@@ -44,7 +44,7 @@ function Portfolio() {
           </div>
           <h3>Weather API </h3>
           <a
-            href="https://github.com"
+            href="https://github.com/SamuelIngvarsson/Inl-mningsuppgift-2-V-der"
             className="btn"
             target="_blank"
             rel="noreferrer"
