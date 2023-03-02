@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/CV-Samuel-Ingvarsson.pdf";
+import CV from "../../assets/CVSamuelIngvarsson.pdf";
 import Letter from "../../assets/Rekommendationsbrev.pdf";
 import { Link } from "react-router-dom";
 
